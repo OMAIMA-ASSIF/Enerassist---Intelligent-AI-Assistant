@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+motor
+passlib
+bcrypt==3.2.2
+python-jose[cryptography]
+python-multipart
+pydantic[email]
+python-dotenv

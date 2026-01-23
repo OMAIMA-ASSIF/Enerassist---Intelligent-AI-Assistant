@@ -1,16 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Iutfit:wght@100..900& display=swap');
+/* =======================================
+   Fonts
+======================================= */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* =======================================
+   Tailwind directives
+======================================= */
 @import "tailwindcss";
 
-@custom-variant dark (&:where(.dark, .dark *))
-
-*{
+/* =======================================
+   Font Globale
+======================================= */
+* {
     font-family: "Outfit", sans-serif;
 }
 
-@theme {
-    --color-primary : #E6CCFF ;
+/* =======================================
+   Variables CSS
+======================================= */
+:root {
+    --color-primary: #E6CCFF;
 }
 
+/* =======================================
+   Scrollbar (masquée)
+======================================= */
 ::-webkit-scrollbar {
-    display : none ;
+    display: none;
 }
+
+/* =======================================
+   Mode sombre
+   Utiliser avec classes Tailwind `dark:`
+======================================= */
